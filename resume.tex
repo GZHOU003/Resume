@@ -1,0 +1,131 @@
+\documentclass[a4paper,10pt]{article}
+%\usepackage{cmbright}
+\usepackage{newpxtext,newpxmath}
+%\usepackage{times}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-10pt}\scshape\raggedright\large\bf
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+	\item\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+	\item\small{
+		{\vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\multicolumn{2}{c}{\textbf{{\LARGE Guanglei Zhou}}}\\  Email: \href{mailto:}{gzhou003@e.ntu.edu.sg}&
+		\href{https://linkedin.com/in/guangleizhou}{Linkedin/in/guangleizhou}\\  Mobile:~~~+86-13671877480 &
+		Location: Jing'an District, Shanghai, China \\
+	\end{tabular*}
+	
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading{Nanyang Technological University}{Singapore}{Master of Science (Finance)}{Jul. 2021 -- Jan. 2023}
+	\resumeSubheading{Central University of Finance \& Economics}{Beijing, China}{Bachelor of Economics (Finance)}{Sep. 2017 -- Jun. 2021}
+	\resumeSubHeadingListEnd
+	\vspace{3pt}
+	
+	
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeSubheading{Shanghai International Trust}{Shanghai, China}{Associate, Structured Finance Investment Dpet.}{Feb. 2023 -- Present}
+	\resumeItemListStart
+	\resumeItem{Deal Sourcing}{}
+	\resumeItem{Deal Execution}{Assisted in deal execution of Quasi-REITs, CMBS, Asset-backed Notes, and etc, which included CMBS of CCT Construction \& Investment, Quasi-REITs of Zhangzhou Traffic Development Group.}
+	\resumeItemListEnd
+	
+	\resumeSubheading{Shanghai Futeng Private Equity Fund (Fortera Capital)}{Shanghai, China}{Private Equity Intern, Investment \& Research Dept.}{Jul. 2022 -- Oct. 2022}
+	\resumeItemListStart
+	\resumeItem{Secondaries Invests}{Participated in secondaries deals for the transfers of State-owned LP shares including the \emph{GL Capital}, Walden International, and etc. \emph{Independently} drafted IC memo, model, interviews, due diligence, NDA, TS, SPA, and etc.}
+	\resumeItem{Fundrasing}{Assisted to fundraise \emph{Shanghai Yinling Jieli Xingjian Fund (L.P.)} (Secondaries, AUM: 10 BB CNY).}
+	\resumeItemListEnd
+	
+	\resumeSubheading{JIC Technology Investment, China Jianyin Investment (JIC)}{Beijing, China}
+	{Private Equity Intern, Investment Dept.}{Mar. 2022 -- Jun. 2022}
+	\resumeItemListStart
+	\resumeItem{Direct Invests}{Participated in growth-stage deals of AIDD unicorn investments in \emph{InSilico} (Series D+), a Series C biotech, and a Series B cancer supported biotech. Solely drafted IC memo, model, due diligence, interviews, NDA, TS, SPA, etc.}
+	\resumeItem{Research}{Drafted and updated the current research report of the AIDD industry and company.}
+	\resumeItemListEnd
+	
+	\resumeSubheading{State-Owned Double Hundred Action Development Fund, China Reform Fund Mgmt.}{Beijing, China}
+	{Private Equity Intern, Investment Dept.}{Sep. 2021 -- Mar. 2022}
+	\resumeItemListStart
+	\resumeItem{Direct Invests}{Participated in mega (growth-stage) deals of state-owned enterprises mixed ownership reform in \emph{Haiwan Chemical}, a satellite SOE, and a UAV SOE. Drafted IC memo, valuation, interview, due diligence, TS, SPA, and etc.}
+	\resumeItem{Post Management}{Updated quarterly operating data, financial data, valuation. Wrote post-mgmt memos for BoDs.}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	\vspace{3pt}
+	\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Chinese, Chinese (Shanghainese), English}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~MS Office (Word, Powerpoint, Excel, Outlook), \LaTeX}
+	\resumeSubItem{Database}{~~~~~~~~Capital IQ, Pitchbook, Wind, Bloomberg}
+	\resumeSubItem{Hard Skills}{~~~~~~Financial Modeling (DCF, LBO), Fund Operation Modeling, Due Diligence, Securitization}
+	
+	\resumeSubHeadingListEnd
+\end{document}
